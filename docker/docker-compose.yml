@@ -1,0 +1,12 @@
+services:
+  free-media-converter:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: free_media_converter
+    volumes:
+      - ..:/app:delegated
+    working_dir: /app
+    tty: true
+    stdin_open: true
+    command: ["sleep", "infinity"]
