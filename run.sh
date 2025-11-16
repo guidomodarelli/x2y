@@ -3,7 +3,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 COMPOSE_FILE="$SCRIPT_DIR/docker/docker-compose.yml"
-SERVICE=free-media-converter
+SERVICE=x2y
 
 printf "Building Docker image for %s...\n" "$SERVICE"
 docker compose -f "$COMPOSE_FILE" build --pull "$SERVICE"

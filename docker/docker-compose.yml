@@ -1,9 +1,9 @@
 services:
-  free-media-converter:
+  x2y:
     build:
       context: ..
       dockerfile: docker/Dockerfile
-    container_name: free_media_converter
+    container_name: x2y
     volumes:
       - ..:/app:delegated
     working_dir: /app

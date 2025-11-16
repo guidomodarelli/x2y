@@ -1,6 +1,6 @@
-# 🎵🎬 Free Media Converter
+# 🎵🎬 x2y
 
-**Free Media Converter** es una herramienta de línea de comandos ligera y fácil de usar que convierte archivos de **audio y video** con la potencia de FFmpeg, pero sin tener que instalar nada más en tu equipo: todo el entorno se levanta dentro de Docker.
+**x2y** es una herramienta de línea de comandos ligera y fácil de usar que convierte archivos de **audio y video** con la potencia de FFmpeg, pero sin tener que instalar nada más en tu equipo: todo el entorno se levanta dentro de Docker.
 
 Diseñado para creadores de contenido, podcasters y desarrolladores que necesitan una solución rápida, el CLI ofrece:
 
@@ -24,7 +24,7 @@ El proyecto incluye `docker/Dockerfile` que instala Python 3.11 y FFmpeg, y expo
 
 ### Ejecutar el CLI dentro del contenedor
 
-Desde la raíz del proyecto ejecuta `./run.sh` seguido de los flags de la herramienta. El script reconstruye la imagen cuando hace falta y hace `docker compose run --rm free-media-converter` pasando exactamente los argumentos que le diste:
+Desde la raíz del proyecto ejecuta `./run.sh` seguido de los flags de la herramienta. El script reconstruye la imagen cuando hace falta y hace `docker compose run --rm x2y` pasando exactamente los argumentos que le diste:
 
 ```bash
 ./run.sh -i audio.wav -o audio.mp3

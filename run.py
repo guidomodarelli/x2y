@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Free Media Converter CLI
+x2y CLI
 Convierte archivos de audio y video entre diferentes formatos usando FFmpeg.
 """
 
@@ -158,7 +158,7 @@ def convert_media(input_file, output_file, output_format, quality='192k'):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="🎵🎬 Free Media Converter - Convierte archivos de audio y video usando FFmpeg",
+        description="🎵🎬 x2y - Convierte archivos de audio y video usando FFmpeg",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Ejemplos de uso:
