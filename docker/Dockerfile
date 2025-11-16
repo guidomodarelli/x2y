@@ -20,5 +20,4 @@ RUN pip install --no-cache-dir --upgrade pip \
 # Copiar el resto del código del proyecto
 COPY . ./
 
-# Mantener el contenedor vivo para poder ejecutar comandos contra él
-CMD ["sleep", "infinity"]
+ENTRYPOINT ["python", "run.py"]

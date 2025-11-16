@@ -9,4 +9,3 @@ services:
     working_dir: /app
     tty: true
     stdin_open: true
-    command: ["sleep", "infinity"]
